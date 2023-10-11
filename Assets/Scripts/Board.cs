@@ -31,7 +31,9 @@ public class Board : MonoBehaviour
 
         else if (columnIndex >= currentRow.tiles.Length)
         {
-            // submit a row..
+            if (Input.GetKeyDown(KeyCode.Return)) {
+                SubmitRow(currentRow);
+            }
         }
         else
         {
@@ -45,5 +47,10 @@ public class Board : MonoBehaviour
             }
         }
         
+    }
+
+    private void SubmitRow(Row row)
+    {
+        //...
     }
 }
