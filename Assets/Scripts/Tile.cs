@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class Tile : MonoBehaviour
 {
+    [System.Serializable]
     public class State
     {
         public Color fillColor;
@@ -19,6 +20,8 @@ public class Tile : MonoBehaviour
     private void Awake()
     {
         text = GetComponentInChildren<TextMeshProUGUI>();
+        fill = GetComponent<Image>();
+        outline = GetComponent<Outline>();
     }
 
     public void SetLetter(char letter)
