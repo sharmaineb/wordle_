@@ -88,5 +88,11 @@ public class Board : MonoBehaviour
                 //.. incorrect
             }
         }
+        rowIndex++;
+        columnIndex = 0;
+
+        if (rowIndex >= rows.Length) {
+            enabled = false;
+        }
     }
 }
