@@ -85,6 +85,12 @@ public class Board : MonoBehaviour
 
     private void SubmitRow(Row row)
     {
+        if (!IsValidWord(row.word))
+        {
+            //...
+            return;
+        }
+
         string remaining = word;
 
         for (int i = 0; i < row.tiles.Length; i++)
@@ -147,5 +153,17 @@ public class Board : MonoBehaviour
         if (rowIndex >= rows.Length) {
             enabled = false;
         }
+    }
+
+    private bool IsValidWord(string word)
+    {
+        for (int i = 0; i < validWords.Length; i++)
+        {
+            if (validWords[i] == word) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
