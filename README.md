@@ -2,6 +2,7 @@
 
 ## Try It Out Here!
 [Play Game](http://shaaaarmaineb.me/wordle-live/)
+- Big Thanks to Andrew32A for the help & assistance on setting up the Live URL!
 
 ## Overview
 
@@ -21,7 +22,7 @@ Follow these steps to get the project up and running on your local machine:
 1. Clone this repository to your local system.
 
 ```bash
-git clone https://github.com/your-username/ny-times-wordle.git
+git clone https://github.com/sharmaineb/wordle_.git
 ```
 
 2. Open Unity and select "Open Project." Navigate to the cloned repository folder and open the project.
