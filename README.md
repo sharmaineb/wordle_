@@ -2,7 +2,7 @@
 
 ## Try It Out Here!
 [Play Game](http://shaaaarmaineb.me/wordle-live/)
-- Big Thanks to Andrew32A for the help & assistance on setting up the Live URL!
+- Big Thanks to [Andrew32A](https://github.com/Andrew32A) for the help & assistance on setting up the Live URL!
 
 ## Overview
 
