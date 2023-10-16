@@ -1,6 +1,6 @@
 # NY Times Inspired Wordle Game
 
-## Try It Out Here!
+### Try It Out Here!
 [Play Game](http://shaaaarmaineb.me/wordle-live/)
 - Big Thanks to [Andrew32A](https://github.com/Andrew32A) for the help & assistance on setting up the Live URL!
 
@@ -31,7 +31,7 @@ git clone https://github.com/sharmaineb/wordle_.git
 
 ## How to Play
 
-1. Launch the game (Placeholder -- fix later).
+1. Launch the game here: [Play Game](http://shaaaarmaineb.me/wordle-live/)
 
 2. A secret five-letter word is randomly generated. Your objective is to guess this word within six attempts.
 
@@ -49,4 +49,3 @@ git clone https://github.com/sharmaineb/wordle_.git
 ## Acknowledgments
 
 - This game was inspired by the New York Times Wordle game.
-- Placeholder -- add more later
