@@ -1,7 +1,7 @@
 # NY Times Inspired Wordle Game
 
 ### Try It Out Here!
-[Play Game](http://shaaaarmaineb.me/wordle-live/)
+[Play Game](https://sharmaineb.github.io/wordle-live/)
 - Big Thanks to [Andrew32A](https://github.com/Andrew32A) for the help & assistance on setting up the Live URL!
 
 ## Overview
